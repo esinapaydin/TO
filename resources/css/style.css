@@ -72,7 +72,135 @@ li{
     margin-right: 2rem;
 }
 }
-  
-  
-  
-  
+.supporting{
+  display:flex;
+  justify-content:center;
+}
+  .service {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 3rem;
+    width: 5rem;
+    height: 8rem;
+}
+.paper{
+  width:3.5rem;
+}
+.ruler{
+  width:5rem;
+}
+.truck{
+  width:5rem;
+}
+.supporting-container {
+  display: flex;
+  justify-content: center;
+}
+.info {
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom:4rem;
+}
+.title{
+  background-color:cadetblue;
+  color:white;
+  font-weight:bold;
+  padding: 0.5rem 1.25rem;
+  max-width:10rem;
+}
+footer{
+  background-color:azure;
+  display:flex;
+  align-items:center;
+  padding: 4rem 2rem;
+}
+footer img{
+  height:1.5rem;
+  margin-left:2rem;
+  margin-right:1rem;
+}
+
+
+@media only screen and (max-width: 560px){
+  header div span{
+    display:none;
+  }
+  header ul{
+    display:none;
+  }
+  .menu {
+    display: block;
+    margin-right:1rem;
+}
+  .main-banner {
+    padding: 0 1rem;
+    margin: 9rem auto 0 auto;
+    width: 100%;
+    text-align: center;
+}
+  .main-banner h1{
+    font-size:1rem;
+  }
+  header {
+    background-position: 20%;
+    height: 17rem;
+}
+}
+
+@media only screen and (min-width :560px){
+  .menu{
+    display:none;
+  }
+}
+
+
+
+@media only screen and (max-width: 560px){
+.supporting {
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  margin-top:3rem;
+  line-height:1.4rem;
+}
+.service{
+  height: auto;
+  margin: .77rem;
+  font-size: .77rem;
+  width:5rem;
+  }
+  .truck,.ruler,.paper{
+    margin-bottom:1rem;
+  }
+  .supporting-container{
+      flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  margin-top:3rem;
+ 
+  }
+  .info{
+    width:auto;
+    margin-right:5%;
+    margin-bottom:4rem;
+  }
+  .title{
+    width:100%;
+    max-width:100%;
+    text-align:center;
+  }
+  p{
+    padding:1rem;
+    font-size:.77rem;
+  }
+  footer div{
+    display:none;
+  }
+  footer{
+    align-items:center;
+    justify-content:center;
+  }
+  }
